@@ -36,8 +36,8 @@ navigation:
   #- name: Theme
   #  url: https://github.com/AWEEKJ/kiko-now
 
-default:
- -scope:
+defaults:
+ - scope:
    path:
   values:
    image: /assets/images/global_og_image.jpg
