@@ -1,10 +1,7 @@
 ---
 layout: page
 title: About
-tagline: "C#, Python, OpenCV, Tensorflow, Computer Vision, Machine learning, etc."
 permalink: /about/
-ref: about
-order: 2
 ---
 
 <p class="about_name">개발자: 윤대희</p>
