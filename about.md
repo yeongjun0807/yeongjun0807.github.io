@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-<p class="about_name">개발자: 윤대희</p>
+<p>프로그래머입니다.</p>
 
-<p class="about_mail">E-MAIL : s076923@gmail.com</p>
+<p>이메일 주소 : shining0721@naver.com</p>
 
 <p class="about_text">문의사항 및 건의사항이 있으면 메일로 연락 부탁드립니다.</p>
 <br>
-<h1><a href="https://www.inflearn.com/course/c-opencv/" class="fas fa-leaf" style="float:right;">&nbsp;Inflearn</a></h1>
-<br>
-<h1><a href="https://open.kakao.com/o/gqW5YRE" class="fas fa-comment-dots" style="float:right;">&nbsp;Kakao Group</a></h1>
-<br>
-<h1><a href="https://wikibook.co.kr/opencv4/" class="fas fa-book" style="float:right;">&nbsp;OpenCV4 Book</a></h1>
-<br>
+<h1><a href="https://blog.naver.com/shining0721" style="float:right;">&nbsp;네이버 블로그</a></h1>
