@@ -1,7 +1,6 @@
 ---
 layout: page
 title: About
-tagline: "Python"
 permalink: /about/
 ---
 
