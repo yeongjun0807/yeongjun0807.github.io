@@ -2,7 +2,7 @@
 layout: page
 title: About
 tagline: "Python"
-permalink: /about
+permalink: /about/
 ---
 
 HiHiHi
