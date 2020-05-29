@@ -38,7 +38,7 @@ navigation:
 
 defaults:
   - scope:
-     path:
+    path:
     values:
      image: /assets/images/global_og_image.jpg
      height: 400
