@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+프로그래머입니다
 
 ### More Information
 
