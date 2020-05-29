@@ -1,10 +1,11 @@
 ---
 layout: page
 title: About
-permalink: /about/
+tagline: "Python"
+permalink: /about
 ---
 
-Some information about you!
+<p>안녕하세요, 프로그래머입니다<p>
 
 ### More Information
 
