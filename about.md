@@ -12,11 +12,6 @@ order: 2
 <p class="about_mail">E-MAIL : s076923@gmail.com</p>
 
 <p class="about_text">문의사항 및 건의사항이 있으면 메일로 연락 부탁드립니다.</p>
-
-<iframe src="spaceship.html" class="about_iframe"></iframe>
-<!-- 
-<br>
-<h1><a href="https://www.inflearn.com/course/c-opencv/" class="fas fa-book" style="float:right;">&nbsp;Book</a></h1> -->
 <br>
 <h1><a href="https://www.inflearn.com/course/c-opencv/" class="fas fa-leaf" style="float:right;">&nbsp;Inflearn</a></h1>
 <br>
