@@ -2,9 +2,7 @@
 layout: page
 title: About
 tagline: "C#, Python, OpenCV, Tensorflow, Computer Vision, Machine learning, etc."
-permalink: /about
-header:
-  image: /assets/patterns/upfeathers.png
+permalink: /about/
 ref: about
 order: 2
 ---
