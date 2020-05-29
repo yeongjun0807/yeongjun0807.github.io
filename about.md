@@ -11,3 +11,4 @@ permalink: /about/
 <p class="about_text">문의사항 및 건의사항이 있으면 메일로 연락 부탁드립니다.</p>
 <br>
 <h1><a href="https://blog.naver.com/shining0721" style="float:right;">&nbsp;네이버 블로그</a></h1>
+<br>
