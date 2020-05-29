@@ -5,7 +5,7 @@ tagline: "Python"
 permalink: /about
 ---
 
-<p>안녕하세요, 프로그래머입니다<p>
+HiHiHi
 
 ### More Information
 
