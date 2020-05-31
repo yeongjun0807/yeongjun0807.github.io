@@ -33,8 +33,8 @@ navigation:
     url: /archive
   #- name: Tags
     #url: /tags
-  #- name: Category
-    #url: /categories
+  - name: Category
+    url: /categories
   #- name: Theme
   #  url: https://github.com/AWEEKJ/kiko-now
 
