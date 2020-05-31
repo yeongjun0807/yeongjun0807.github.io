@@ -31,10 +31,10 @@ navigation:
     url: /about
   - name: Archive
     url: /archive
-  - name: Tags
-    url: /tags
-  - name: Category
-    url: /categories
+  #- name: Tags
+    #url: /tags
+  #- name: Category
+    #url: /categories
   #- name: Theme
   #  url: https://github.com/AWEEKJ/kiko-now
 
