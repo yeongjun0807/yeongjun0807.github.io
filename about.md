@@ -8,5 +8,5 @@ permalink: /about/
 
 <p>이메일 주소 : shining0721@naver.com</p>
 <br>
-<h1><img src="/assets/Image/Blog-Image.png" width=144, height=144><a href="https://blog.naver.com/shining0721" style="float:right;">&nbsp;네이버 블로그</a></h1>
+<h1><img src="/assets/Image/Blog-Image.png" width=50, height=50><a href="https://blog.naver.com/shining0721" style="float:right;">&nbsp;네이버 블로그</a></h1>
 <br>
