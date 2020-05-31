@@ -34,7 +34,7 @@ navigation:
   - name: Tags
     url: /tags
   - name: Category
-    url: categories
+    url: /categories
   #- name: Theme
   #  url: https://github.com/AWEEKJ/kiko-now
 
