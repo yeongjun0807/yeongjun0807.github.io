@@ -592,7 +592,10 @@ footer {
 }
 
 .categories {
-  list-style-type: none;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 15px;
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
