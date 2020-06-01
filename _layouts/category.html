@@ -2,7 +2,7 @@
 layout: page
 ---
 {% for post in site.categories[page.title] %}
-  <ul class="category">
+  <ul class="category" style="list-style:none;">
     {% if post.title != null %}
       <li>
         {% if post.link %}
