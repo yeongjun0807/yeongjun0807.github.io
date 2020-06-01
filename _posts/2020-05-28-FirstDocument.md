@@ -6,7 +6,7 @@ tags: ['태그입니다']
 keywords: 프로그래머, 키워드, 테스트 글, yeongjun0807.github.io
 comment: true
 date: 2020-05-29 20:20:10 +0900
-category: posts
+category: 공지사항
 ---
 
 ## 테스트 글입니다 ##
