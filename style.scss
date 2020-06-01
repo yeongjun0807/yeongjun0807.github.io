@@ -119,6 +119,7 @@ ol, ul {
       display: inline-block;
       box-sizing: border-box;
       text-align: right;
+      list-style:none;
     }
   }
 }
@@ -130,6 +131,7 @@ ul {
     font-family: $ul-bullets-font;
     font-size: $ul-bullets-font-size;
     line-height: $ul-bullets-font-line-height;
+    list-style:none;
   }
 }
 
@@ -143,6 +145,7 @@ ol {
     font-family: $ol-bullets-font;
     font-size: $ol-bullets-font-size;
     line-height: $ol-bullets-font-line-height;
+    list-style:none;
   }
 }
 
@@ -150,10 +153,12 @@ ol, ul {
   > li {
     margin: 0 auto $li-bottom-space $li-bullets-width;
     line-height: $li-line-height;
+    list-style:none;
 
     > ol,
     > ul {
       margin-top: $li-bottom-space;
+      list-style:none;
     }
   }
 }
@@ -164,6 +169,7 @@ li {
     > li {
       font-size: ($li-child-size-ratio * 1em);
       margin: 0 auto ($li-bottom-space * $li-child-size-ratio) ($li-bullets-width * $li-child-size-ratio);
+      list-style:none;
     }
   }
 }
