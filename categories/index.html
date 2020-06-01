@@ -9,7 +9,7 @@ permalink: /categories/
 {% endif %}
 <div>
   {% for eachCategory in site.categories %}
-    <ul class="categories">
+    <ul class="categories" style="list-style:none;">
       {% for categoryName in eachCategory[0] %}
         {% if categoryName != null %}
           <li>
