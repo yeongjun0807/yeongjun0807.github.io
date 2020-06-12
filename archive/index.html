@@ -7,7 +7,7 @@ permalink: /archive/
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
-<style src="/nobefore.css"></style>
+<style type="text/css" src="/nobefore.css"></style>
 <ul class="archive">
   {% for post in site.posts %}
     {% unless post.next %}
