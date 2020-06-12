@@ -111,27 +111,7 @@ hr {
 // Yeun's list style
 // https://gist.github.com/yeun/d824fc7b04b756508f4b0143535cec30
 
-ul {
-  > li:before {
-    padding-right: $ul-bullets-right-space;
-    font-family: $ul-bullets-font;
-    font-size: $ul-bullets-font-size;
-    line-height: $ul-bullets-font-line-height;
-  }
-}
 
-ol {
-  counter-reset: section;
-
-  > li:before {
-    counter-increment: section;
-    content: counter(section) ".";
-    padding-right: $ol-bullets-right-space;
-    font-family: $ol-bullets-font;
-    font-size: $ol-bullets-font-size;
-    line-height: $ol-bullets-font-line-height;
-  }
-}
 
 ol, ul {
   > li {
