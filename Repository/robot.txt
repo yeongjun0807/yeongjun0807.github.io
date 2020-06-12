@@ -1,3 +1,0 @@
-User-agent: *
-Allow:/
-Sitemap: http://yeongjun0807.github.io/sitemap.xml
