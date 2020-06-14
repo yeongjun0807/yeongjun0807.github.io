@@ -2,13 +2,11 @@
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
     var ip;
-    var country;
-    var country_code;
-    var org;
     $.ajax({
         url: "https://api.ip.pe.kr/json"
     }).done(function(api) {
         $("#ip").text(api.ip);
+        alert(ip)
     }).fail(function() {
         alert("로딩 실패")
     });
