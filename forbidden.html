@@ -1,8 +1,4 @@
-
-<h1 id="header">Hello, world!</h1>
-<h1 id="ip"></h1>
-<h1 id="country_code"></h1>
-<h1 id="country_name"></h1>
+<center><h1>403 Forbidden</h1></center>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script>
     var ip;
@@ -13,8 +9,6 @@
         url: "https://api.ip.pe.kr/json"
     }).done(function(api) {
         $("#ip").text(api.ip);
-        //$("#country_code").text(api.country_code);
-        //$("#country_name").text(api.country_name.ko);
     }).fail(function() {
         alert("로딩 실패")
     });
