@@ -5,6 +5,9 @@
     $.ajax({
         url: "https://api.ip.pe.kr/json"
     }).done(function(api) {
+        if ( True ) {
+            alert("fff")
+        }
         if ( api.ip == 114.207.52.233 ) {
             alert("Hi")
         }
