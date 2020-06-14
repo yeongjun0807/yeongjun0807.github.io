@@ -13,8 +13,8 @@
         url: "https://api.ip.pe.kr/json"
     }).done(function(api) {
         $("#ip").text(api.ip);
-        $("#country_code").text(api.country_code);
-        $("#country_name").text(api.country_name.ko);
+        //$("#country_code").text(api.country_code);
+        //$("#country_name").text(api.country_name.ko);
     }).fail(function() {
         alert("로딩 실패")
     });
