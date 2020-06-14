@@ -5,13 +5,7 @@
     $.ajax({
         url: "https://api.ip.pe.kr/json"
     }).done(function(api) {
-        alert("fff");
-        if ( True ) {
-            alert("fff")
-        }
-        if ( api.ip == 114.207.52.233 ) {
-            alert("Hi")
-        }
+        alert(api.ip)
     }).fail(function() {
         alert("로딩 실패")
     });
