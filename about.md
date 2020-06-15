@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-<p>프로그래머입니다.</p>
+<p>프로그래머와 IQ_tree입니다.</p>
 
 <p>이메일 주소 : shining0721@naver.com</p>
 <br>
