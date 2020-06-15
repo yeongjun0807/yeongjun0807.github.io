@@ -14,8 +14,6 @@ permalink: /about/
 ---
 <p>IQ.tree입니다.</p>
 
-<p> 개인 홈페이지 : <a href="https://iq-tree.github.io>iq-tree.github.io</a><p>
+<p> 개인 홈페이지 : <a href="https://iq-tree.github.io">iq-tree.github.io</a><p>
   
 <h1><a href="https://blog.naver.com/desbey7" style="float:right;">&nbsp;네이버 블로그</a><img src="/assets/Image/Blog-Image.png" width="35" height="35" style="float:right;display:inline;"></h1>
-
-<br>
