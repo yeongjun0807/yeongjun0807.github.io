@@ -4,7 +4,19 @@ layout: default
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
+<script>
+  var request = require('request'),
+    cheerio = require('cheerio');
 
+var url = "http://codenamu.org/blog/";
+ 
+
+request(url, function (err, res, html) {
+    if (!err) {
+        var $ = cheerio.load(html);
+    }
+})
+</script>
 <div class="posts">
   {% for post in paginator.posts %}
     <article class="post">
