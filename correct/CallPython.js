@@ -8,6 +8,6 @@ Button.addEventListener('click', function(){
         data: text
     }).done(function() {
         alert('finished python script');
-        alert(data)
+        alert(data);
     });
 });
