@@ -1,13 +1,19 @@
-/*var Button = document.getElementById('Button');
-var {PythonShell} = require('python-shell');
+var Button = document.getElementById('Button');
+
 Button.addEventListener('click', function(){
-    arrs = openSomehowPythonInterpreter("~/crawling.py", "correct()");
-})*/
-$.ajax({
-  type: "POST",
-  url: "~/crawling.py",
-  data: { param: text}
-}).done(function( o ) {
-   alert('fd')
-    // do something
-});
+    var {PythonShell} = require('python-shell');
+    var options = {
+      mode: 'text',
+      encoding: 'utf8',
+      pythonOptions: ['-u'],
+      scriptPath: '',
+      args: [],
+      pythonPath: ''
+    };
+    
+    var test = new PythonShell('crawling.py.py', options);
+    test.on('message',function(message){
+      console.log(message);
+    })
+    //arrs = openSomehowPythonInterpreter("~/crawling.py", "correct()");
+})
