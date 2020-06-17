@@ -13,7 +13,7 @@
 
 <div class="g-recaptcha" data-sitekey="6LeyuKUZAAAAAGJAX_a5H1XA-jFbqc0-wzhqmP7G"></div>
 -->
-<script src="https://www.google.com/recaptcha/api.js?render=6LeyuKUZAAAAAGJAX_a5H1XA-jFbqc0-wzhqmP7G"></script>
+<!--<script src="https://www.google.com/recaptcha/api.js?render=6LeyuKUZAAAAAGJAX_a5H1XA-jFbqc0-wzhqmP7G"></script>
 
 <form>
   <div>이름 : <input type="text" name="name"></div>
@@ -30,4 +30,8 @@ grecaptcha.ready(function() {
     document.getElementById('g-recaptcha').value = token;
   });
 });
-</script>
+</script>-->
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+<div class="g-recaptcha" data-sitekey="6LeyuKUZAAAAAGJAX_a5H1XA-jFbqc0-wzhqmP7G"></div>
+<script type="text/javascript"> function checkrecaptachSubmit() { if (grecaptcha.getResponse() == ""){ alert("Please check the reCaptcha"); return false;} else { return true;}} </script>
