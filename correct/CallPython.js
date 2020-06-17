@@ -5,7 +5,7 @@ Button.addEventListener('click', function(){
     $.ajax({
         url: "crawling.py",
         context: document.body
-        data: { param: text}
+        data: text
     }).done(function() {
         alert('finished python script');
         alert(data)
