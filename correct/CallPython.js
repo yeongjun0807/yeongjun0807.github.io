@@ -15,5 +15,11 @@ Button.addEventListener('click', function(){
     test.on('message',function(message){
       console.log(message);
     })*/
-    arrs = openSomehowPythonInterpreter("~/crawling.py", "correct()");
+    $.ajax({
+              url: "crawling.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+    //arrs = openSomehowPythonInterpreter("~/crawling.py", "correct()");
 })
