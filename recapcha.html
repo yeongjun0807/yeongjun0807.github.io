@@ -1,0 +1,14 @@
+<script src='https://www.google.com/recaptcha/api.js'></script>
+
+<script>
+  function FormSubmit() { 
+    if (grecaptcha.getResponse() == ""){ 
+      alert("리캡챠를 체크해야 합니다."); 
+      return false; } 
+    
+    else { 
+      return true; } 
+  }
+
+
+<div class="g-recaptcha" data-sitekey="6LeyuKUZAAAAAGJAX_a5H1XA-jFbqc0-wzhqmP7G"></div>
