@@ -4,5 +4,33 @@
     <button id="Button">클릭</button>
     <script src="http://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="CallPython.js"></script>
+    <script>
+        var Button = document.getElementById('Button');
+
+Button.addEventListener('click', function(){
+    /*var {PythonShell} = require('python-shell');
+    var options = {
+      mode: 'text',
+      encoding: 'utf8',
+      pythonOptions: ['-u'],
+      scriptPath: '',
+      args: [],
+      pythonPath: ''
+    };
+    
+    var test = new PythonShell('crawling.py.py', options);
+    test.on('message',function(message){
+      console.log(message);
+    })*/
+    $.ajax({
+              url: "crawling.py",
+             context: document.body
+            }).done(function() {
+             alert('finished python script');;
+            });
+    //arrs = openSomehowPythonInterpreter("~/crawling.py", "correct()");
+})
+
+    </script>
 </body>
 </html>
