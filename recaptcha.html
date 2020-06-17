@@ -35,21 +35,3 @@ grecaptcha.ready(function() {
 
 <div class="g-recaptcha" data-sitekey="6LeyuKUZAAAAAGJAX_a5H1XA-jFbqc0-wzhqmP7G"></div>
 <script type="text/javascript"> function checkrecaptachSubmit() { if (grecaptcha.getResponse() == ""){ alert("Please check the reCaptcha"); return false;} else { return true;}} </script>
-<?php
-if(isset($_POST['g-recaptcha-response'])){
-          $captcha=$_POST['g-recaptcha-response'];
-        }
-        if(!$captcha){
-          echo '<h2리캡차를 확인하세요</h2>';
-          exit;
-        }
-        $secretKey = "시크릿키";
-        $ip = $_SERVER['REMOTE_ADDR'];
-        $response=file_get_contents("https://www.google.com/recaptcha/api/siteverify?secret=".$secretKey."&response=".$captcha."&remoteip=".$ip);
-        $responseKeys = json_decode($response,true);
-        if(intval($responseKeys["success"]) !== 1) {
-          echo '<h2>너 스패머지? 나가라</h2>';
-        } else {
-          echo '<h2>고맙습니다.</h2>';
-        }
-?>
