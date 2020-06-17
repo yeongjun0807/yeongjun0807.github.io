@@ -1,14 +1,15 @@
-<script src='https://www.google.com/recaptcha/api.js'></script>
+ <script src="https://www.google.com/recaptcha/api.js"></script>
 
-<script>
-  function FormSubmit() { 
-    if (grecaptcha.getResponse() == ""){ 
-      alert("Check the reCAPTCHA"); 
-      return false; } 
-    
-    else { 
-      return true; } 
-  }
-</script>
+ <script>
+   function onSubmit(token) {
+     document.getElementById("demo-form").submit();
+   }
+ </script>
 
-<div class="g-recaptcha" data-sitekey="6LeyuKUZAAAAAGJAX_a5H1XA-jFbqc0-wzhqmP7G"></div>
+<button class="g-recaptcha" 
+        data-sitekey="6LeyuKUZAAAAAGJAX_a5H1XA-jFbqc0-wzhqmP7G" 
+        data-callback='onSubmit' 
+        data-action='submit'>Submit</button>
+
+<!--<div class="g-recaptcha" data-sitekey="6LeyuKUZAAAAAGJAX_a5H1XA-jFbqc0-wzhqmP7G"></div>
+-->
