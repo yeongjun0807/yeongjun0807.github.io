@@ -1,3 +1,4 @@
+import nltk
 from selenium import webdriver
 
 def correct():
