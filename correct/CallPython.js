@@ -1,25 +1,13 @@
 var Button = document.getElementById('Button');
+var text = NULL;
 
 Button.addEventListener('click', function(){
-    /*var {PythonShell} = require('python-shell');
-    var options = {
-      mode: 'text',
-      encoding: 'utf8',
-      pythonOptions: ['-u'],
-      scriptPath: '',
-      args: [],
-      pythonPath: ''
-    };
-    
-    var test = new PythonShell('crawling.py.py', options);
-    test.on('message',function(message){
-      console.log(message);
-    })*/
     $.ajax({
-              url: "crawling.py",
-             context: document.body
-            }).done(function() {
-             alert('finished python script');;
-            });
-    //arrs = openSomehowPythonInterpreter("~/crawling.py", "correct()");
-})
+        url: "crawling.py",
+        context: document.body
+        data: { param: text}
+    }).done(function() {
+        alert('finished python script');
+        alert(data)
+    });
+});
