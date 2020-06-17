@@ -1,5 +1,5 @@
 var Button = document.getElementById('Button');
-var text = NULL;
+var text = null;
 
 Button.addEventListener('click', function(){
     $.ajax({
