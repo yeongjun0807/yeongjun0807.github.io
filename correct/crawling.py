@@ -1,7 +1,7 @@
 from selenium import webdriver
 
 def correct():
-    Returning = []
+    #Returning = []
     
     try:
         driver = webdriver.Chrome('./driver/chromedriver.exe')
@@ -32,5 +32,6 @@ def correct():
         driver.back()
 
     driver.quit()
-    Returning.append(Title, Image)
-    return Returning
+    return Title
+    #Returning.append(Title, Image)
+    #return Returning
