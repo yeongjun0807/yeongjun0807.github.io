@@ -6,6 +6,8 @@ Button.addEventListener('click', function(){
         context: document.body
     }).done(function() {
         alert('finished python script');
+        var data = JSON.parse(data);
+        alert(data);
     });
 });
 
