@@ -1,4 +1,4 @@
-/*var Button = document.getElementById('Button');
+var Button = document.getElementById('Button');
 var text = null;
 
 Button.addEventListener('click', function(){
@@ -13,7 +13,7 @@ Button.addEventListener('click', function(){
         alert(text);
     });
 });
-*/
+
 /*const spawn = require("child_process").spawn;
 const pythonProcess = spawn('python',["crawling.py"]);
 */
