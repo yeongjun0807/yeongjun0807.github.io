@@ -21,7 +21,7 @@ def correct():
         for i in range(1, 6):
             try:
                 Title.append(driver.find_element_by_xpath(f'/html/body/ui-view/bg-nsc/div[9]/div[4]/div/div/div[1]/ul/li[{i}]/div/a/div[2]/strong/span').text)
-                LoadImage = driver.find_elements_by_xpath(f'/html/body/ui-view/bg-nsc/div[9]/div[4]/div/div/div[1]/ul/li[{i}]/div/a/div[1]')
+                LoadImage = driver.find_elements_by_xpath(f'//*[@id="ct"]/div[4]/div/div/div[1]/ul/li[{i}]/div/a/div[1]')
                 for e in LoadImage:
                     Image.append(e.get_attribute("bg-lazy-img"))
 
