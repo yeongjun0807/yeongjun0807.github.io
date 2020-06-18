@@ -36,8 +36,8 @@ def correct():
 
         data = OrderedDict()
 
-        data.append(Title)
-        data.append(Image)
+        data[Title] = Title
+        data[Image] = Image
 
         with open('data.json', 'w', encoding = "utf-8") as file:
             json.dump(data, file, ensure_ascii = False, indent = "\t")
