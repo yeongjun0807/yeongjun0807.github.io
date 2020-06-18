@@ -1,10 +1,8 @@
 import json
 from selenium import webdriver
-from collections
+from collections import OrderedDict
 
 def correct():
-    #Returning = []
-    
     try:
         driver = webdriver.Chrome('./driver/chromedriver.exe')
 
@@ -37,8 +35,8 @@ def correct():
     
     data = OrderedDict()
     
+    data.append(Title)
+    data.append(Image)
+    
     with open('data.json', 'w', encoding = "utf-8") as file:
         json.dump(data, file, ensure_ascii = False, indent = "\t")
-    
-    #Returning.append(Title, Image)
-    #return Returning
