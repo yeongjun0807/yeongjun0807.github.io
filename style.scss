@@ -17,6 +17,46 @@
 
 html {
   font-size: $base-font-size;
+  html
+  background: #fff;
+  height: 175px;
+  width: 100%;
+  overflow-y: scroll;
+//ie
+  scrollbar-face-color: #e0e0e0;
+  scrollbar-track-color: #fff;
+  scrollbar-arrow-color: none;
+  scrollbar-highlight-color: #e0e0e0;
+  scrollbar-3dlight-color: none;
+  scrollbar-shadow-color: #e0e0e0;
+  scrollbar-darkshadow-color: none;
+}
+
+//크롬, 사파리
+
+.bms-cust-sub-search-form-line2-in-checkarea::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+  border: 3px solid #fff;
+}
+.bms-cust-sub-search-form-line2-in-checkarea::-webkit-scrollbar-button:start:decrement,
+::-webkit-scrollbar-button:end:increment {
+  display: block;
+  height: 5px;
+  background: #fff;
+}
+.bms-cust-sub-search-form-line2-in-checkarea::-webkit-scrollbar-track {
+  background: #fff;
+  -webkit-border-radius: 10px;
+  border-radius:10px;
+}
+.bms-cust-sub-search-form-line2-in-checkarea::-webkit-scrollbar-thumb {
+  height: 50px;
+  width: 50px;
+  background: rgba(0,0,0,.2);
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+}
 }
 
 body {
